@@ -11,7 +11,7 @@ let numbers = process.argv.slice(3,process.argv.length).map((n)=>parseFloat(n));
 if(numbers.some((n)=> isNaN(n))){
     console.log("Some arguments are not numbers!");
     process.exit(1);
-}
+} 
 let result;
 switch (command){
     case "avg":
